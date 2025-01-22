@@ -24,23 +24,14 @@ let at = ++ak
 // console.log(ak,sh,at) //7 , 6 , 7 
 
 let go = 5
-let co = go++
-let oy = ++go //
-console.log(oy) // 7
+let oy = go++
+let ya = go++
+let al = ++go
+let sa = al++
+let ga = ++go
+let ar = go++
 
-// console.log(oy)
-
-let ya = go++ 
-let al = ++go 
-console.log(al) //9
-
-let ay = oy++ //
-let qa = ++oy
-let ft = ay++ 
-let ra = qa++  
-
-// console.log(co,go,oy,ya,al) //9 , 8 , 
-console.log(ft , ra)
+console.log (ga , ya , al) //8 , 6 , 7
 
 
 
