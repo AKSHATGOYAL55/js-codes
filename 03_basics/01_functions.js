@@ -40,6 +40,55 @@ function Dhoni_isplaying(fn ){
     }
 }
 
-console.log(Dhoni_isplaying("Ms Dhoni"))
+// console.log(Dhoni_isplaying("Ms Dhoni"))
 
 // ----------------------------------------------------------------------------------
+
+
+function userCart(...Cart){     //spread operator
+    return(Cart)
+}
+
+// console.log(userCart(200,300,400))                 //Access Array data
+
+// ---------------------------------------
+
+let user = {                                 //Accessing object
+    name : "Akshat Goyal",
+    Role : "frontend",
+    Salary : 5000000
+}
+
+function userEmp(unk){
+    // return `user name is ${unk.name} he's role is ${unk.Role}`   
+}
+
+console.log(userEmp({                 //first type
+    name : "Ayush Jain",
+    Role : "Bussinessman"
+}))
+
+// console.log(userEmp(user))            //second type 
+
+
+// ---------------------------------------------------------
+
+function useEmployee(getArr){                //access Array
+    return getArr[1]
+}
+
+let Arrays = [20,40,60]
+// console.log(useEmployee(Arrays))
+
+// ---------------------Exercise Function Array Accessing ----------------------------------------
+
+
+let CustomArray = [1,5,9]
+
+function AccessArray(ji){
+    return ji[2]
+}
+
+console.log(AccessArray(CustomArray))
+
+// ------------------------------------------------
