@@ -6,7 +6,7 @@ let olympicTeam = ['china','indonesia','oman']
 // let newOne = console.log(Team.concat(OtherTeam))
 // console.log (typeof newOne)
 
-// let newTeam = console.log(...OtherTeam,...Team,...olympicTeam)
+// let newTeam = console.log(...OtherTeam,...Team,...olympicTeam)    //spread operator
 // console.log(typeof newTeam)
 
 //---------Flate method means inside There is lots of array so use Flat()-------------
@@ -17,8 +17,8 @@ let olympicTeam = ['china','indonesia','oman']
 // console.log(Lots_of_Arr.flat(Infinity))
 
 
-// console.log(Array.from("akshat"))  //from means seprated words => "a","k","s"..... create new Array
-// console.log(Array.of("akshat"))  //of means value will be convert in array.... Return new array
+// console.log(Array.from("akshat"))  //from means seprated the words but not return value if value in key value pair only return empty Array => "a","k","s"..... create new Array
+// console.log(Array.of("akshat"))  //of means value will be convert in array.... Return new array & return value also.
 
 
 // console.log(Array.from({"akshat":"goyal"}))
