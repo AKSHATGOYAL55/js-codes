@@ -46,9 +46,9 @@ let otherCar = {
 }
 
 let x = Object.assign({},Cars,otherCar)     //{ } must write curly bracket because all data store in empty object
-console.log(x)
+// console.log(x)
 
-console.log(Cars === x)  //false . beacuse of curly brackets in line no 48
+// console.log(Cars === x)  //false . beacuse of curly brackets in line no 48
 
 // --------------------------------------------------------------------------------------
 
@@ -56,7 +56,34 @@ let Player = {
     name : "Dhoni",
 }
 
-console.log(Object.values(Player))    //output is form in Array
-console.log(Player)                   //output is form in object
+// console.log(Object.values(Player))    //output is form in Array
+// console.log(Player)                   //output is form in object
 
 // -----------------------------------------------------------------------------------
+
+let users = {
+    name : "akshat",
+    Work : "Frontend Developer"
+}
+
+// console.log(users.name)
+
+let {name} = users                         //Destructuring {}
+// console.log(name)
+
+let {name : emplName} = users              //also see IMP
+// console.log(emplName)
+
+
+//-------------Exercice Destructuring------------------------------
+
+
+let Emp = {
+    Empname : "avinash",
+    Role : "full-stack",
+    Salary : 45000,
+}
+
+let {Empname , Role } = Emp
+console.log(Empname , Role )
+// ---------------------------------------------------------------------------------------
