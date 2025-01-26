@@ -44,8 +44,36 @@ let funNames = () =>{               //Arrow Function
 // also implicite and explicite function  => implicite (one line code no use of curly bracels and return ) , explicite (use curly bracels and return).
 
 let arrow = ()=>{name : "akshat"}
-console.log(arrow())                         //undefined
+// console.log(arrow())                         //undefined
 
 
 let arrow2 = ()=>({name : "akshat"})          //(wrap in parathesis ) smoothly run access object in implicite arrow function.
-console.log(arrow2())                         
+// console.log(arrow2())     
+
+
+// ------------------------IIFE (Immediately invoked function excecution)---------------------------
+
+function One(){
+    console.log("DB Conected")         //Normal Function
+};
+
+// One();                       
+
+
+(function two(){
+    console.log("DB Connected Successfull")           //IIFE function
+})();
+
+
+
+// Note : if you write function before iife function must write semicolon in the end ; because its inidicate the function end there.
+
+// ---------------------------------------Example -----------------------------------
+
+(function example_iife (name) {
+
+    console.log(`my name is ${name}`)
+})("Akshat");
+
+
+// ---------------------------------------------------------------------------------
