@@ -1,12 +1,12 @@
 
 // let arr = [{},{},{}] => For in loop
 
-// ---------------------------For of Loop (Both array and object )-------------------------------
+// ---------------------------For of Loop (only array Not in object )-------------------------------
 
 let arr = ["Asus", "Lenovo", "Dell" , "Hp" , "Macbook"]               //Array
 
 for (const value of arr) {
-    // console.log(value)
+    console.log(value)
 }
 
 let newObj = {                                                        //Object
@@ -14,16 +14,16 @@ let newObj = {                                                        //Object
     type : "Lappi"
 }
 
-for (const key in newObj){
-    // console.log(`key is ${key} object is ${newObj[key]}`)
-}
+// for (const key of newObj){
+//     // console.log(`key is ${key} object is ${newObj[key]}`)
+// }
 
 // -----------------------------For in (Both Array and object )--------------------------------------
 
 let Arr = ["sktiman", "Batman" , "Spiderman", "Superman" , "hulk"]
 
 for (const value in Arr){
-    // console.log(Arr[value])
+    console.log(Arr[value])
 }
 
 
@@ -32,13 +32,17 @@ let NewOne = {
     Type : "Lappi"
 }
 
-for (const key in NewOne){
-    if (NewOne[key]== "Lappi"){
-        console.log("Laptop bolo yrr")
-        continue;
-    }
-    console.log(`key "${key}" value is "${NewOne[key]}"`)
-}
+// for (const key in NewOne){
+//     // if (NewOne[key]== "Lappi"){
+//     //     console.log("Laptop bolo yrr")
+//     //     continue;
+//     // }
+//     if(key == "Type"){
+//         console.log("yeh phir aa gya ")
+//         continue;
+//     }
+//     console.log(`key "${key}" value is "${NewOne[key]}"`)
+// }
 
 // -------------------------------------------------------
 
