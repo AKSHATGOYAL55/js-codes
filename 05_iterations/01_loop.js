@@ -24,16 +24,28 @@ for (let i = 0; i < 5; i++) {
 
 // ---------------------------------------------------
 
-let arr = ["Superman" , "Batman" , "Spiderman" , "Hulk" , "krish"]
+// let arr = ["Superman" , "Batman" , "Spiderman" , "Hulk" , "krish"]
 
-for (let i = 0; i < arr.length; i++) {
-    if(arr[i]=="Spiderman"){
-        console.log(`my favourite superhero ${arr[i]}`)
-        continue                                                         //continue statement 
-    }
-    const element = arr[i];
-    console.log(element)
+// for (let i = 0; i < arr.length; i++) {
+//     if(arr[i]=="Spiderman"){
+//         console.log(`my favourite superhero ${arr[i]}`)
+//         continue                                                         //continue statement 
+//     }
+//     const element = arr[i];
+//     console.log(element)
     
+// }
+
+// -----------------------Example----------------------------------------
+
+let newArr = ["Asus","lenovo","Hp","Dell"]
+
+for (let i=0 ; i < newArr.length ; i++){
+    if(newArr[i] == "lenovo"){
+        console.log("Lenovo aa gye oye")
+        continue;
+    }
+    console.log(newArr[i])
 }
 
-// ---------------------------------------------------------------
+// -------------------------------------------------------------------
